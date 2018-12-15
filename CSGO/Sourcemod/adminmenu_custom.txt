@@ -1,0 +1,124 @@
+"Commands"
+{
+	"Utilities"
+	{
+		"5v5 Competitive"
+		{
+			"cmd"			"exec 5v5comp"
+			"execute"		"server"
+
+
+		}
+		"Practice Mode"
+		{
+			"cmd"			"exec practice"
+			"execute"		"server"
+
+
+		}
+		"Pistols Only"
+		{
+			"cmd"			"exec pistols"
+			"execute"		"server"
+
+
+		}
+		"M4A1 Only"
+		{
+			"cmd"			"exec m4"
+			"execute"		"server"
+
+
+		}
+		"Grenade Practice"
+		{
+			"cmd"			"exec grenades"
+			"execute"		"server"
+
+
+		}
+		"Scouts Only"
+		{
+			"cmd"			"exec scout"
+			"execute"		"server"
+
+
+		}
+		"AIM Maps"
+		{
+			"cmd"			"exec aim"
+			"execute"		"server"
+
+
+		}
+		"Zeus Only"
+		{
+			"cmd"			"exec taser"
+			"execute"		"server"
+
+
+		}
+		"AK47 Only"
+		{
+			"cmd"			"exec ak47"
+			"execute"		"server"
+
+
+		}
+		"Give Player Weapon"
+		{
+			"cmd"			"sm_weapon #1 #2"
+			"1"
+			{
+				"type" 		"player"
+				"title"		"Player to Give to"
+
+			}
+			"2"
+			{
+				"type" 		"list"
+				"title"		"Weapon:"
+				"1"		"weapon_ak47"
+				"1."		"Ak-47"
+				"2"		"weapon_m4a1_silencer"
+				"2."		"M4A1S"
+				"3"		"weapon_awp"
+				"3."		"AWP"
+				"4"		"weapon_mp7"
+				"4."		"MP7"
+			}
+
+		}
+
+	}
+
+	"Team Management"
+	{
+		"admin"		"sm_ban"
+		"Move Players"
+		{
+			"cmd"		"sm_team #1 #2"
+			"execute"		"player"
+			"1"
+			{
+				"type" 		"player"
+			}
+			"2"
+			{
+				"type"		"list"
+				"title"		"Team:"
+				"1"		"1"
+				"1."		"Spectators"
+				"2"		"2"
+				"2."		"Terrorists"
+				"3"		"3"
+				"3."		"Counter-Terrorists"
+			}
+		}
+		"Swap All Players"
+		{
+			"cmd"		"sm_swapteam @all"
+			"execute"		"server"
+		}
+	}
+}
