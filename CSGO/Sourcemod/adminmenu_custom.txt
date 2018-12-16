@@ -16,6 +16,13 @@
 
 
 		}
+		"Tie-Break Mode"
+		{
+			"cmd"			"exec tie"
+			"execute"		"server"
+
+
+		}
 		"Pistols Only"
 		{
 			"cmd"			"exec pistols"
