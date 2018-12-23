@@ -1,6 +1,6 @@
 "Commands"
 {
-	"Utilities"
+	"Game Modes"
 	{
 		"5v5 Competitive"
 		{
@@ -12,6 +12,13 @@
 		"Practice Mode"
 		{
 			"cmd"			"exec practice"
+			"execute"		"server"
+
+
+		}
+		"Deagle Mode"
+		{
+			"cmd"			"exec deagle"
 			"execute"		"server"
 
 
@@ -72,31 +79,6 @@
 
 
 		}
-		"Give Player Weapon"
-		{
-			"cmd"			"sm_weapon #1 #2"
-			"1"
-			{
-				"type" 		"player"
-				"title"		"Player to Give to"
-
-			}
-			"2"
-			{
-				"type" 		"list"
-				"title"		"Weapon:"
-				"1"		"weapon_ak47"
-				"1."		"Ak-47"
-				"2"		"weapon_m4a1_silencer"
-				"2."		"M4A1S"
-				"3"		"weapon_awp"
-				"3."		"AWP"
-				"4"		"weapon_mp7"
-				"4."		"MP7"
-			}
-
-		}
-
 	}
 
 	"Team Management"
