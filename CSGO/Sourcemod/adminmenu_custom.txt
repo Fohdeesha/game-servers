@@ -80,34 +80,4 @@
 
 		}
 	}
-
-	"Team Management"
-	{
-		"admin"		"sm_ban"
-		"Move Players"
-		{
-			"cmd"		"sm_team #1 #2"
-			"execute"		"player"
-			"1"
-			{
-				"type" 		"player"
-			}
-			"2"
-			{
-				"type"		"list"
-				"title"		"Team:"
-				"1"		"1"
-				"1."		"Spectators"
-				"2"		"2"
-				"2."		"Terrorists"
-				"3"		"3"
-				"3."		"Counter-Terrorists"
-			}
-		}
-		"Swap All Players"
-		{
-			"cmd"		"sm_swapteam @all"
-			"execute"		"server"
-		}
-	}
 }
