@@ -72,6 +72,13 @@
 
 
 		}
+		"AWP Only"
+		{
+			"cmd"			"exec awp"
+			"execute"		"server"
+
+
+		}
 		"AK47 Only"
 		{
 			"cmd"			"exec ak47"
