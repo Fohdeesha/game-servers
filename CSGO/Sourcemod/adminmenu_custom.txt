@@ -16,6 +16,13 @@
 
 
 		}
+		"Knife Only - Team Decider"
+		{
+			"cmd"			"exec knivez"
+			"execute"		"server"
+
+
+		}
 		"Deagle Mode"
 		{
 			"cmd"			"exec deagle"
