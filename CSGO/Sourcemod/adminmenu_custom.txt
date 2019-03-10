@@ -93,5 +93,12 @@
 
 
 		}
+		"P90 Only"
+		{
+			"cmd"			"exec p90"
+			"execute"		"server"
+
+
+		}
 	}
 }
