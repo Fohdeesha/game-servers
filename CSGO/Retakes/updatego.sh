@@ -1,0 +1,1 @@
+./steamcmd.sh +runscript csgoupdate.txt

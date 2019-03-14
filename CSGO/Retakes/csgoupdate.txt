@@ -1,0 +1,8 @@
+// update csgo
+//
+@ShutdownOnFailedCommand 1
+@NoPromptForPassword 1
+login fohdeesha ---
+force_install_dir ./go/
+app_update 740
+quit
