@@ -1,0 +1,59 @@
+cfx> cmdlist
+_crash
+add_ace
+add_principal
+adhesive_cdnKey =
+citizen_dir = /home/jon/fivem/alpine/opt/cfx-server/citizen/
+cmdlist
+con_disableNonTTYReads = false
+developer = 0
+endpoint_add_tcp
+endpoint_add_udp
+ensure
+exec
+force_enet_disconnect
+gametype = Freeroam
+heartbeat
+list_aces
+list_principals
+load_server_icon
+mapname = fivem-map-skater
+netlib = enet
+onesync_distanceCulling = true
+onesync_enabled = false
+onesync_logFile =
+onesync_radiusFrequency = true
+onesync_showObjectIds
+rcon_password = isobutane
+refresh
+remove_ace
+remove_principal
+restart
+say
+se_debug = false
+set
+seta
+setr
+sets
+start
+stop
+sv_authMaxVariance = 5
+sv_authMinTrust = 1
+sv_endpointPrivacy = true
+sv_enforceGameBuild =
+sv_enhancedHostSupport = true
+sv_hostname = Fohdeesha RP & Lambda
+sv_infoVersion = 607805776
+sv_lan = false
+sv_licenseKey =
+sv_master1 = live-internal.fivem.net:30110
+sv_master2 =
+sv_master3 =
+sv_maxClients = 32
+sv_scriptHookAllowed = true
+sv_threadedClientHttp = true
+tags = fohdeesha, lambda, rp, cars
+temp_convar = hey world!
+test_ace
+version = FXServer-master v1.0.0.1141 linux
+cfx>
