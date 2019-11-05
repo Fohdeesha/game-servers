@@ -20,7 +20,7 @@ class ServerWatchdog
   end
 
   def healthy?()
-    server = SourceServer.new(@ip,@port)
+    server = SteamCondenser::Servers::SourceServer.new(@ip,@port)
 
     begin
       server.rcon_auth(@rcon_pw)
@@ -40,7 +40,7 @@ class ServerWatchdog
 end
 
 startup_dir = "/home/jon/objective/nmrih_ds"
-startup_cmd = './srcds_linux -game ./nmrih "$@" -console +map nmo_quarantine +ip 66.254.110.111 +rcon_password nope'
+startup_cmd = './srcds_run -game nmrih "$@" -console +map nmo_quarantine +ip 66.254.110.111 +rcon_password nope'
 srv = ServerWatchdog.new(startup_dir, startup_cmd, '66.254.110.111', '27015', 'nope')
 
 Thread.new do
