@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+# Credit to Bucky Wolfe
 require 'steam-condenser'
 require 'childprocess'
 
